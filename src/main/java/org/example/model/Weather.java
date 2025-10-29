@@ -20,8 +20,6 @@ public class Weather {
     public String getDescription() { return description; }
     public void setDescription(String description) { this.description = description; }
 
-    public double getTemperatureCelsius() { return temperatureCelsius; }
-    public void setTemperatureCelsius(double temperatureCelsius) { this.temperatureCelsius = temperatureCelsius; }
 
     @Override
     public String toString() {
